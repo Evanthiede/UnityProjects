@@ -6,6 +6,7 @@ public class BridgeFormer : MonoBehaviour
 {
     public GameObject bridge;
     public bool bridgeTriggered;
+   
     // Start is called before the first frame update
     void Start()
     {
