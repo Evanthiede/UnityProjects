@@ -10,8 +10,8 @@ public class PillarActivation : MonoBehaviour
     public Material deacitivatedCrystal;
     public Material activeCrystal;
     public GameObject cube;
+    public ParticleSystem flash;
 
-    
 
     // Start is called before the first frame update
     void Start()

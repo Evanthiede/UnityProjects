@@ -7,24 +7,24 @@ public class CreatureCutscene : MonoBehaviour
     public Animator creature;
     public GameObject antelers;
     public Transform player;
-    public Transform SceneBox;
+    public GameObject barrier;
+    float timer = 0;
 
     // Start is called before the first frame update
     void Start()
     {
         creature = gameObject.GetComponent<Animator>();
         antelers.SetActive(false);
-
     }
 
     public void Animate()
-    {
-        
+    { 
         antelers.SetActive(true);
         creature.Play("A pear");
-
-        player.transform.position = SceneBox.transform.position;
-
-
+        timer += Time.deltaTime;
+        if (timer > 7)
+        {
+            barrier.SetActive(false);
+        }
     }
 }

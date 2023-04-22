@@ -6,11 +6,14 @@ public class BridgeFormer : MonoBehaviour
 {
     public GameObject bridge;
     public bool bridgeTriggered;
+    public GameObject barrier;
+    public ParticleSystem flash;
    
     // Start is called before the first frame update
     void Start()
     {
         bridge.SetActive(false);
+        flash.Stop();
     }
 
     // Update is called once per frame
@@ -18,6 +21,7 @@ public class BridgeFormer : MonoBehaviour
     {
         bridge.SetActive(true);
         bridgeTriggered = true;
-
+        barrier.SetActive(false);
+        flash.Play();
     }
 }
