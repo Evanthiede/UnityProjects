@@ -29329,7 +29329,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &909635870
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -38313,7 +38313,7 @@ PrefabInstance:
     - target: {fileID: 6910358437722581454, guid: fe121be352012cd4ba2ca56fa31e4c05,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe121be352012cd4ba2ca56fa31e4c05, type: 3}
@@ -44560,7 +44560,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.1
+      scalar: 0.2
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -50828,7 +50828,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1502372506
 Transform:
   m_ObjectHideFlags: 0
