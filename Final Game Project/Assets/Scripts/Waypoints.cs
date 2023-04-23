@@ -35,7 +35,7 @@ public class Waypoints : MonoBehaviour
 
         else
         {
-            return transform.GetChild(0);
+            return transform.GetChild(currentWaypoint.GetSiblingIndex());
         }
     }
 }

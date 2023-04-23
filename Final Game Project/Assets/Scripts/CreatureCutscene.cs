@@ -8,20 +8,25 @@ public class CreatureCutscene : MonoBehaviour
     public GameObject antelers;
     public Transform player;
     public GameObject barrier;
-    float timer = 0;
+    public float timer = 0;
 
     // Start is called before the first frame update
     void Start()
     {
         creature = gameObject.GetComponent<Animator>();
         antelers.SetActive(false);
+        
+    }
+    private void Update()
+    {
+        timer += Time.deltaTime;
     }
 
     public void Animate()
     { 
         antelers.SetActive(true);
         creature.Play("A pear");
-        timer += Time.deltaTime;
+    
         if (timer > 7)
         {
             barrier.SetActive(false);
