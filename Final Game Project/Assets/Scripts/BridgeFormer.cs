@@ -24,6 +24,7 @@ public class BridgeFormer : MonoBehaviour
         bridgeTriggered = true;
         barrier.SetActive(false);
         flash.Play();
+        gong.pitch = (Random.Range(0.95f, 1.05f));
         gong.Play();
     }
 }

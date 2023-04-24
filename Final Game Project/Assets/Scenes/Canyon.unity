@@ -4280,6 +4280,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 504565746446166342, guid: b4a010ec50a80fe4dae1ccf56194e09d,
         type: 3}
+      propertyPath: MinDistance
+      value: 1.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 504565746446166342, guid: b4a010ec50a80fe4dae1ccf56194e09d,
+        type: 3}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 504565746446166342, guid: b4a010ec50a80fe4dae1ccf56194e09d,
+        type: 3}
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
       value: 1
       objectReference: {fileID: 0}
@@ -22480,6 +22490,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 504565746446166342, guid: b4a010ec50a80fe4dae1ccf56194e09d,
         type: 3}
+      propertyPath: MinDistance
+      value: 1.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 504565746446166342, guid: b4a010ec50a80fe4dae1ccf56194e09d,
+        type: 3}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 504565746446166342, guid: b4a010ec50a80fe4dae1ccf56194e09d,
+        type: 3}
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
       value: 1
       objectReference: {fileID: 0}
@@ -28845,6 +28865,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 824518979}
     m_Modifications:
+    - target: {fileID: 504565746446166342, guid: b4a010ec50a80fe4dae1ccf56194e09d,
+        type: 3}
+      propertyPath: MinDistance
+      value: 1.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 504565746446166342, guid: b4a010ec50a80fe4dae1ccf56194e09d,
+        type: 3}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 504565746446166342, guid: b4a010ec50a80fe4dae1ccf56194e09d,
         type: 3}
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
@@ -50531,9 +50561,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a3a76d63fb10549bb2984a55dab28f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  followRange: 10
+  followRange: 6
   waypoints: {fileID: 1023233120}
-  moveSpeed: 5
+  moveSpeed: 4
   agent: {fileID: 1465233093}
   player: {fileID: 679740621}
   companion: {fileID: 1465233098}
@@ -52234,10 +52264,10 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 21.77
   MaxDistance: 50
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -73423,6 +73453,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 824518979}
     m_Modifications:
+    - target: {fileID: 504565746446166342, guid: b4a010ec50a80fe4dae1ccf56194e09d,
+        type: 3}
+      propertyPath: MinDistance
+      value: 1.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 504565746446166342, guid: b4a010ec50a80fe4dae1ccf56194e09d,
+        type: 3}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 504565746446166342, guid: b4a010ec50a80fe4dae1ccf56194e09d,
         type: 3}
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value

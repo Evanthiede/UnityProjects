@@ -21,6 +21,7 @@ public class VaultOpen : MonoBehaviour
         door2.SetActive(false);
         darkness.Play();
         flash.Play();
+        gong.pitch = (Random.Range(0.95f, 1.05f));
         gong.Play();
     }
 }

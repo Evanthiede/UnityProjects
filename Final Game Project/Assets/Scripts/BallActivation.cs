@@ -20,6 +20,7 @@ public class BallActivation : MonoBehaviour
     {
         Companion.SetActive(true);
         flash.Play();
+        gong.pitch = (Random.Range(0.95f, 1.05f));
         gong.Play();
 
     }

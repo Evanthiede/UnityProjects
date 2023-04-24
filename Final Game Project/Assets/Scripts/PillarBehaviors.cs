@@ -19,6 +19,7 @@ public class PillarBehaviors : MonoBehaviour
     {
         gatewayRock.SetActive(false);
         triggered = true;
+        gong.pitch = (Random.Range(0.95f, 1.05f));
         flash.Play();
         gong.Play();
     }
