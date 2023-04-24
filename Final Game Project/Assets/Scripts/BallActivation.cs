@@ -6,6 +6,8 @@ public class BallActivation : MonoBehaviour
 {
     public ParticleSystem flash;
     public GameObject Companion;
+    public AudioSource gong;
+
 
     // Start is called before the first frame update
     void Start()
@@ -18,5 +20,7 @@ public class BallActivation : MonoBehaviour
     {
         Companion.SetActive(true);
         flash.Play();
+        gong.Play();
+
     }
 }

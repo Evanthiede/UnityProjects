@@ -8,6 +8,7 @@ public class VaultOpen : MonoBehaviour
     public GameObject door2;
     public ParticleSystem darkness;
     public ParticleSystem flash;
+    public AudioSource gong;
 
     private void Start()
     {
@@ -20,6 +21,6 @@ public class VaultOpen : MonoBehaviour
         door2.SetActive(false);
         darkness.Play();
         flash.Play();
-
+        gong.Play();
     }
 }

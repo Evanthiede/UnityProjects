@@ -8,7 +8,8 @@ public class BridgeFormer : MonoBehaviour
     public bool bridgeTriggered;
     public GameObject barrier;
     public ParticleSystem flash;
-   
+    public AudioSource gong;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,5 +24,6 @@ public class BridgeFormer : MonoBehaviour
         bridgeTriggered = true;
         barrier.SetActive(false);
         flash.Play();
+        gong.Play();
     }
 }

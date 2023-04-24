@@ -7,6 +7,5 @@ public class GameEnd : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Ended");
-
     }
 }

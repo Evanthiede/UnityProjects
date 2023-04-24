@@ -9,6 +9,7 @@ public class PillarBehaviors : MonoBehaviour
     public GameObject gatewayRock;
     public bool triggered;
     public ParticleSystem flash;
+    public AudioSource gong;
 
     private void Start()
     {
@@ -19,5 +20,6 @@ public class PillarBehaviors : MonoBehaviour
         gatewayRock.SetActive(false);
         triggered = true;
         flash.Play();
+        gong.Play();
     }
 }
