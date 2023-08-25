@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Animation Clouds 2
+  m_Name: Animation Clouds
   m_Shader: {fileID: -6465566751694194690, guid: b978fe04e49b5f04698cfc2bfc3aca48,
     type: 3}
   m_ValidKeywords: []
@@ -48,8 +48,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Animation_Speed: 5
-    - _Cloud_Height: 5
+    - _Animation_Speed: 0
+    - _Cloud_Height: 9.1
     - _Cloud_height: 50
     - _Noise_Edge_1: -0.47
     - _Noise_Edge_2: 1.3
