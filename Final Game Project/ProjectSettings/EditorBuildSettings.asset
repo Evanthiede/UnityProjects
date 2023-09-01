@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SecondScene.unity
     guid: 8a574409cdf0cf84f88b1e7c7a8c06c0
+  - enabled: 1
+    path: Assets/Scenes/Cloud Realm.unity
+    guid: 41838b7cec4323643b08ceca2bd45789
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4aa5099ef7e1f274b923f194b2d63b91,
       type: 2}
