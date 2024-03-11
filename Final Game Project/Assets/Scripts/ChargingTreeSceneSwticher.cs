@@ -7,7 +7,7 @@ public class ChargingTreeSceneSwticher : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        //SceneManager.LoadScene(sceneName: "SecondScene");
-
+        SceneManager.LoadScene(sceneName: "ChargingTree");
+        Debug.Log("teleport");
     }
 }
