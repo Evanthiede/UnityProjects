@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameEnd : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    public void FinishGame()
     {
+        SceneManager.LoadScene(sceneName: "MainMenu");
         Debug.Log("Ended");
     }
 }

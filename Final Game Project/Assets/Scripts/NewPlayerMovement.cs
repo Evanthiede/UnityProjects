@@ -70,7 +70,7 @@ public class NewPlayerMovement : MonoBehaviour
         if (Physics.Raycast(groundCheckRay,out RaycastHit info, 4f))
         {
             transform.position = info.point;
-            Debug.Log(info.point);
+            
         }
         
     }

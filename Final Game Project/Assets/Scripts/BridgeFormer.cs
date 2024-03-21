@@ -18,7 +18,7 @@ public class BridgeFormer : MonoBehaviour
     }
 
     // Update is called once per frame
-    private void OnTriggerEnter(Collider other)
+    public void BuildBridge()
     {
         bridge.SetActive(true);
         bridgeTriggered = true;

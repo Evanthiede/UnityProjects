@@ -6,12 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 6a172ab4d55cdf74a8e7d6904c464bb1
+  - enabled: 1
     path: Assets/Scenes/Canyon.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SecondScene.unity
     guid: 8a574409cdf0cf84f88b1e7c7a8c06c0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Cloud Realm.unity
     guid: 41838b7cec4323643b08ceca2bd45789
   - enabled: 1

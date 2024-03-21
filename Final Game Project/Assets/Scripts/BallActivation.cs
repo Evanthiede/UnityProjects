@@ -16,12 +16,12 @@ public class BallActivation : MonoBehaviour
         flash.Stop();
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void BallActivate()
     {
         Companion.SetActive(true);
         flash.Play();
         gong.pitch = (Random.Range(0.95f, 1.05f));
         gong.Play();
-
+        Debug.Log("Ball Activated");
     }
 }

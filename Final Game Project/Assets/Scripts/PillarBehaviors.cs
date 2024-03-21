@@ -15,12 +15,13 @@ public class PillarBehaviors : MonoBehaviour
     {
         flash.Stop();
     }
-    private void OnTriggerEnter(Collider other)
+    public void GatewayOpen()
     {
         gatewayRock.SetActive(false);
         triggered = true;
         gong.pitch = (Random.Range(0.95f, 1.05f));
         flash.Play();
         gong.Play();
+        Debug.Log("Gateway Opened");
     }
 }
